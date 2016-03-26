@@ -19,3 +19,5 @@
 ''''objc
 [ZLStatusBarHUD showMessage:@"自定义文字" image:nil];
 ''''
+ `git tag 0.0.1`
+ `git push --tags`
