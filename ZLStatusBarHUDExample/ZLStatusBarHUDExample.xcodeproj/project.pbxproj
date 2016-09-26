@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA0C7D3E1CA6511800AA2F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D3D1CA6511800AA2F60 /* main.m */; };
-		EA0C7D411CA6511800AA2F60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D401CA6511800AA2F60 /* AppDelegate.m */; };
-		EA0C7D441CA6511800AA2F60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D431CA6511800AA2F60 /* ViewController.m */; };
-		EA0C7D471CA6511800AA2F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0C7D451CA6511800AA2F60 /* Main.storyboard */; };
-		EA0C7D491CA6511800AA2F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0C7D481CA6511800AA2F60 /* Assets.xcassets */; };
-		EA0C7D4C1CA6511800AA2F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0C7D4A1CA6511800AA2F60 /* LaunchScreen.storyboard */; };
-		EA0C7D571CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D561CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.m */; };
-		EA0C7D621CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D611CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.m */; };
-		EA0C7D731CA652B200AA2F60 /* ZLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA0C7D701CA652B200AA2F60 /* ZLStatusBarHUD.bundle */; };
-		EA0C7D741CA652B200AA2F60 /* ZLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C7D721CA652B200AA2F60 /* ZLStatusBarHUD.m */; };
+		EA5DCBBD1D98ABE000E213A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCBBC1D98ABE000E213A5 /* main.m */; };
+		EA5DCBC01D98ABE000E213A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCBBF1D98ABE000E213A5 /* AppDelegate.m */; };
+		EA5DCBC31D98ABE000E213A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCBC21D98ABE000E213A5 /* ViewController.m */; };
+		EA5DCBC81D98ABE000E213A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCBC71D98ABE000E213A5 /* Assets.xcassets */; };
+		EA5DCBCB1D98ABE000E213A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCBC91D98ABE000E213A5 /* LaunchScreen.storyboard */; };
+		EA5DCBD61D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCBD51D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.m */; };
+		EA5DCBE11D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCBE01D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.m */; };
+		EA5DCC191D98AC4A00E213A5 /* ZLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCC161D98AC4A00E213A5 /* ZLStatusBarHUD.bundle */; };
+		EA5DCC1A1D98AC4A00E213A5 /* ZLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */; };
+		EA5DCC1D1D98ACA100E213A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCC1B1D98ACA100E213A5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA0C7D531CA6511800AA2F60 /* PBXContainerItemProxy */ = {
+		EA5DCBD21D98ABE000E213A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA0C7D311CA6511800AA2F60 /* Project object */;
+			containerPortal = EA5DCBB01D98ABE000E213A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA0C7D381CA6511800AA2F60;
+			remoteGlobalIDString = EA5DCBB71D98ABE000E213A5;
 			remoteInfo = ZLStatusBarHUDExample;
 		};
-		EA0C7D5E1CA6511800AA2F60 /* PBXContainerItemProxy */ = {
+		EA5DCBDD1D98ABE000E213A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA0C7D311CA6511800AA2F60 /* Project object */;
+			containerPortal = EA5DCBB01D98ABE000E213A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA0C7D381CA6511800AA2F60;
+			remoteGlobalIDString = EA5DCBB71D98ABE000E213A5;
 			remoteInfo = ZLStatusBarHUDExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA0C7D391CA6511800AA2F60 /* ZLStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA0C7D3D1CA6511800AA2F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA0C7D3F1CA6511800AA2F60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EA0C7D401CA6511800AA2F60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA0C7D421CA6511800AA2F60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA0C7D431CA6511800AA2F60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA0C7D461CA6511800AA2F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA0C7D481CA6511800AA2F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA0C7D4B1CA6511800AA2F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA0C7D4D1CA6511800AA2F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA0C7D521CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLStatusBarHUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA0C7D561CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUDExampleTests.m; sourceTree = "<group>"; };
-		EA0C7D581CA6511800AA2F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA0C7D5D1CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA0C7D611CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
-		EA0C7D631CA6511800AA2F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA0C7D701CA652B200AA2F60 /* ZLStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZLStatusBarHUD.bundle; sourceTree = "<group>"; };
-		EA0C7D711CA652B200AA2F60 /* ZLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLStatusBarHUD.h; sourceTree = "<group>"; };
-		EA0C7D721CA652B200AA2F60 /* ZLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUD.m; sourceTree = "<group>"; };
+		EA5DCBB81D98ABE000E213A5 /* ZLStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DCBBC1D98ABE000E213A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5DCBBE1D98ABE000E213A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA5DCBBF1D98ABE000E213A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA5DCBC11D98ABE000E213A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA5DCBC21D98ABE000E213A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA5DCBC71D98ABE000E213A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5DCBCA1D98ABE000E213A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5DCBCC1D98ABE000E213A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DCBD11D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLStatusBarHUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DCBD51D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUDExampleTests.m; sourceTree = "<group>"; };
+		EA5DCBD71D98ABE000E213A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DCBDC1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5DCBE01D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
+		EA5DCBE21D98ABE000E213A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5DCC161D98AC4A00E213A5 /* ZLStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZLStatusBarHUD.bundle; sourceTree = "<group>"; };
+		EA5DCC171D98AC4A00E213A5 /* ZLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLStatusBarHUD.h; sourceTree = "<group>"; };
+		EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUD.m; sourceTree = "<group>"; };
+		EA5DCC1C1D98ACA100E213A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA0C7D361CA6511800AA2F60 /* Frameworks */ = {
+		EA5DCBB51D98ABE000E213A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D4F1CA6511800AA2F60 /* Frameworks */ = {
+		EA5DCBCE1D98ABE000E213A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D5A1CA6511800AA2F60 /* Frameworks */ = {
+		EA5DCBD91D98ABE000E213A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,75 +83,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA0C7D301CA6511800AA2F60 = {
+		EA5DCBAF1D98ABE000E213A5 = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D3B1CA6511800AA2F60 /* ZLStatusBarHUDExample */,
-				EA0C7D551CA6511800AA2F60 /* ZLStatusBarHUDExampleTests */,
-				EA0C7D601CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests */,
-				EA0C7D3A1CA6511800AA2F60 /* Products */,
+				EA5DCBBA1D98ABE000E213A5 /* ZLStatusBarHUDExample */,
+				EA5DCBD41D98ABE000E213A5 /* ZLStatusBarHUDExampleTests */,
+				EA5DCBDF1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests */,
+				EA5DCBB91D98ABE000E213A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA0C7D3A1CA6511800AA2F60 /* Products */ = {
+		EA5DCBB91D98ABE000E213A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D391CA6511800AA2F60 /* ZLStatusBarHUDExample.app */,
-				EA0C7D521CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.xctest */,
-				EA0C7D5D1CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.xctest */,
+				EA5DCBB81D98ABE000E213A5 /* ZLStatusBarHUDExample.app */,
+				EA5DCBD11D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.xctest */,
+				EA5DCBDC1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA0C7D3B1CA6511800AA2F60 /* ZLStatusBarHUDExample */ = {
+		EA5DCBBA1D98ABE000E213A5 /* ZLStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D6F1CA652B200AA2F60 /* ZLStatusBarHUD */,
-				EA0C7D3F1CA6511800AA2F60 /* AppDelegate.h */,
-				EA0C7D401CA6511800AA2F60 /* AppDelegate.m */,
-				EA0C7D421CA6511800AA2F60 /* ViewController.h */,
-				EA0C7D431CA6511800AA2F60 /* ViewController.m */,
-				EA0C7D451CA6511800AA2F60 /* Main.storyboard */,
-				EA0C7D481CA6511800AA2F60 /* Assets.xcassets */,
-				EA0C7D4A1CA6511800AA2F60 /* LaunchScreen.storyboard */,
-				EA0C7D4D1CA6511800AA2F60 /* Info.plist */,
-				EA0C7D3C1CA6511800AA2F60 /* Supporting Files */,
+				EA5DCC151D98AC4A00E213A5 /* ZLStatusBarHUD */,
+				EA5DCBBE1D98ABE000E213A5 /* AppDelegate.h */,
+				EA5DCBBF1D98ABE000E213A5 /* AppDelegate.m */,
+				EA5DCBC11D98ABE000E213A5 /* ViewController.h */,
+				EA5DCBC21D98ABE000E213A5 /* ViewController.m */,
+				EA5DCBC71D98ABE000E213A5 /* Assets.xcassets */,
+				EA5DCC1B1D98ACA100E213A5 /* Main.storyboard */,
+				EA5DCBC91D98ABE000E213A5 /* LaunchScreen.storyboard */,
+				EA5DCBCC1D98ABE000E213A5 /* Info.plist */,
+				EA5DCBBB1D98ABE000E213A5 /* Supporting Files */,
 			);
 			path = ZLStatusBarHUDExample;
 			sourceTree = "<group>";
 		};
-		EA0C7D3C1CA6511800AA2F60 /* Supporting Files */ = {
+		EA5DCBBB1D98ABE000E213A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D3D1CA6511800AA2F60 /* main.m */,
+				EA5DCBBC1D98ABE000E213A5 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA0C7D551CA6511800AA2F60 /* ZLStatusBarHUDExampleTests */ = {
+		EA5DCBD41D98ABE000E213A5 /* ZLStatusBarHUDExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D561CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.m */,
-				EA0C7D581CA6511800AA2F60 /* Info.plist */,
+				EA5DCBD51D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.m */,
+				EA5DCBD71D98ABE000E213A5 /* Info.plist */,
 			);
 			path = ZLStatusBarHUDExampleTests;
 			sourceTree = "<group>";
 		};
-		EA0C7D601CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests */ = {
+		EA5DCBDF1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D611CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.m */,
-				EA0C7D631CA6511800AA2F60 /* Info.plist */,
+				EA5DCBE01D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.m */,
+				EA5DCBE21D98ABE000E213A5 /* Info.plist */,
 			);
 			path = ZLStatusBarHUDExampleUITests;
 			sourceTree = "<group>";
 		};
-		EA0C7D6F1CA652B200AA2F60 /* ZLStatusBarHUD */ = {
+		EA5DCC151D98AC4A00E213A5 /* ZLStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				EA0C7D701CA652B200AA2F60 /* ZLStatusBarHUD.bundle */,
-				EA0C7D711CA652B200AA2F60 /* ZLStatusBarHUD.h */,
-				EA0C7D721CA652B200AA2F60 /* ZLStatusBarHUD.m */,
+				EA5DCC161D98AC4A00E213A5 /* ZLStatusBarHUD.bundle */,
+				EA5DCC171D98AC4A00E213A5 /* ZLStatusBarHUD.h */,
+				EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */,
 			);
 			name = ZLStatusBarHUD;
 			path = ../../ZLStatusBarHUD;
@@ -160,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA0C7D381CA6511800AA2F60 /* ZLStatusBarHUDExample */ = {
+		EA5DCBB71D98ABE000E213A5 /* ZLStatusBarHUDExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA0C7D661CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExample" */;
+			buildConfigurationList = EA5DCBE51D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExample" */;
 			buildPhases = (
-				EA0C7D351CA6511800AA2F60 /* Sources */,
-				EA0C7D361CA6511800AA2F60 /* Frameworks */,
-				EA0C7D371CA6511800AA2F60 /* Resources */,
+				EA5DCBB41D98ABE000E213A5 /* Sources */,
+				EA5DCBB51D98ABE000E213A5 /* Frameworks */,
+				EA5DCBB61D98ABE000E213A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,71 +174,68 @@
 			);
 			name = ZLStatusBarHUDExample;
 			productName = ZLStatusBarHUDExample;
-			productReference = EA0C7D391CA6511800AA2F60 /* ZLStatusBarHUDExample.app */;
+			productReference = EA5DCBB81D98ABE000E213A5 /* ZLStatusBarHUDExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA0C7D511CA6511800AA2F60 /* ZLStatusBarHUDExampleTests */ = {
+		EA5DCBD01D98ABE000E213A5 /* ZLStatusBarHUDExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA0C7D691CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleTests" */;
+			buildConfigurationList = EA5DCBE81D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleTests" */;
 			buildPhases = (
-				EA0C7D4E1CA6511800AA2F60 /* Sources */,
-				EA0C7D4F1CA6511800AA2F60 /* Frameworks */,
-				EA0C7D501CA6511800AA2F60 /* Resources */,
+				EA5DCBCD1D98ABE000E213A5 /* Sources */,
+				EA5DCBCE1D98ABE000E213A5 /* Frameworks */,
+				EA5DCBCF1D98ABE000E213A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA0C7D541CA6511800AA2F60 /* PBXTargetDependency */,
+				EA5DCBD31D98ABE000E213A5 /* PBXTargetDependency */,
 			);
 			name = ZLStatusBarHUDExampleTests;
 			productName = ZLStatusBarHUDExampleTests;
-			productReference = EA0C7D521CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.xctest */;
+			productReference = EA5DCBD11D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA0C7D5C1CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests */ = {
+		EA5DCBDB1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA0C7D6C1CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleUITests" */;
+			buildConfigurationList = EA5DCBEB1D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleUITests" */;
 			buildPhases = (
-				EA0C7D591CA6511800AA2F60 /* Sources */,
-				EA0C7D5A1CA6511800AA2F60 /* Frameworks */,
-				EA0C7D5B1CA6511800AA2F60 /* Resources */,
+				EA5DCBD81D98ABE000E213A5 /* Sources */,
+				EA5DCBD91D98ABE000E213A5 /* Frameworks */,
+				EA5DCBDA1D98ABE000E213A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA0C7D5F1CA6511800AA2F60 /* PBXTargetDependency */,
+				EA5DCBDE1D98ABE000E213A5 /* PBXTargetDependency */,
 			);
 			name = ZLStatusBarHUDExampleUITests;
 			productName = ZLStatusBarHUDExampleUITests;
-			productReference = EA0C7D5D1CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.xctest */;
+			productReference = EA5DCBDC1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA0C7D311CA6511800AA2F60 /* Project object */ = {
+		EA5DCBB01D98ABE000E213A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = MacTsin;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = 111;
 				TargetAttributes = {
-					EA0C7D381CA6511800AA2F60 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 39J7ARRJF8;
+					EA5DCBB71D98ABE000E213A5 = {
+						CreatedOnToolsVersion = 7.1;
 					};
-					EA0C7D511CA6511800AA2F60 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 39J7ARRJF8;
-						TestTargetID = EA0C7D381CA6511800AA2F60;
+					EA5DCBD01D98ABE000E213A5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA5DCBB71D98ABE000E213A5;
 					};
-					EA0C7D5C1CA6511800AA2F60 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 39J7ARRJF8;
-						TestTargetID = EA0C7D381CA6511800AA2F60;
+					EA5DCBDB1D98ABE000E213A5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA5DCBB71D98ABE000E213A5;
 					};
 				};
 			};
-			buildConfigurationList = EA0C7D341CA6511800AA2F60 /* Build configuration list for PBXProject "ZLStatusBarHUDExample" */;
+			buildConfigurationList = EA5DCBB31D98ABE000E213A5 /* Build configuration list for PBXProject "ZLStatusBarHUDExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,38 +243,38 @@
 				en,
 				Base,
 			);
-			mainGroup = EA0C7D301CA6511800AA2F60;
-			productRefGroup = EA0C7D3A1CA6511800AA2F60 /* Products */;
+			mainGroup = EA5DCBAF1D98ABE000E213A5;
+			productRefGroup = EA5DCBB91D98ABE000E213A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA0C7D381CA6511800AA2F60 /* ZLStatusBarHUDExample */,
-				EA0C7D511CA6511800AA2F60 /* ZLStatusBarHUDExampleTests */,
-				EA0C7D5C1CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests */,
+				EA5DCBB71D98ABE000E213A5 /* ZLStatusBarHUDExample */,
+				EA5DCBD01D98ABE000E213A5 /* ZLStatusBarHUDExampleTests */,
+				EA5DCBDB1D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA0C7D371CA6511800AA2F60 /* Resources */ = {
+		EA5DCBB61D98ABE000E213A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0C7D4C1CA6511800AA2F60 /* LaunchScreen.storyboard in Resources */,
-				EA0C7D731CA652B200AA2F60 /* ZLStatusBarHUD.bundle in Resources */,
-				EA0C7D491CA6511800AA2F60 /* Assets.xcassets in Resources */,
-				EA0C7D471CA6511800AA2F60 /* Main.storyboard in Resources */,
+				EA5DCBCB1D98ABE000E213A5 /* LaunchScreen.storyboard in Resources */,
+				EA5DCC191D98AC4A00E213A5 /* ZLStatusBarHUD.bundle in Resources */,
+				EA5DCBC81D98ABE000E213A5 /* Assets.xcassets in Resources */,
+				EA5DCC1D1D98ACA100E213A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D501CA6511800AA2F60 /* Resources */ = {
+		EA5DCBCF1D98ABE000E213A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D5B1CA6511800AA2F60 /* Resources */ = {
+		EA5DCBDA1D98ABE000E213A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,73 +284,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA0C7D351CA6511800AA2F60 /* Sources */ = {
+		EA5DCBB41D98ABE000E213A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0C7D441CA6511800AA2F60 /* ViewController.m in Sources */,
-				EA0C7D411CA6511800AA2F60 /* AppDelegate.m in Sources */,
-				EA0C7D3E1CA6511800AA2F60 /* main.m in Sources */,
-				EA0C7D741CA652B200AA2F60 /* ZLStatusBarHUD.m in Sources */,
+				EA5DCBC31D98ABE000E213A5 /* ViewController.m in Sources */,
+				EA5DCBC01D98ABE000E213A5 /* AppDelegate.m in Sources */,
+				EA5DCBBD1D98ABE000E213A5 /* main.m in Sources */,
+				EA5DCC1A1D98AC4A00E213A5 /* ZLStatusBarHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D4E1CA6511800AA2F60 /* Sources */ = {
+		EA5DCBCD1D98ABE000E213A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0C7D571CA6511800AA2F60 /* ZLStatusBarHUDExampleTests.m in Sources */,
+				EA5DCBD61D98ABE000E213A5 /* ZLStatusBarHUDExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0C7D591CA6511800AA2F60 /* Sources */ = {
+		EA5DCBD81D98ABE000E213A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0C7D621CA6511800AA2F60 /* ZLStatusBarHUDExampleUITests.m in Sources */,
+				EA5DCBE11D98ABE000E213A5 /* ZLStatusBarHUDExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA0C7D541CA6511800AA2F60 /* PBXTargetDependency */ = {
+		EA5DCBD31D98ABE000E213A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA0C7D381CA6511800AA2F60 /* ZLStatusBarHUDExample */;
-			targetProxy = EA0C7D531CA6511800AA2F60 /* PBXContainerItemProxy */;
+			target = EA5DCBB71D98ABE000E213A5 /* ZLStatusBarHUDExample */;
+			targetProxy = EA5DCBD21D98ABE000E213A5 /* PBXContainerItemProxy */;
 		};
-		EA0C7D5F1CA6511800AA2F60 /* PBXTargetDependency */ = {
+		EA5DCBDE1D98ABE000E213A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA0C7D381CA6511800AA2F60 /* ZLStatusBarHUDExample */;
-			targetProxy = EA0C7D5E1CA6511800AA2F60 /* PBXContainerItemProxy */;
+			target = EA5DCBB71D98ABE000E213A5 /* ZLStatusBarHUDExample */;
+			targetProxy = EA5DCBDD1D98ABE000E213A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA0C7D451CA6511800AA2F60 /* Main.storyboard */ = {
+		EA5DCBC91D98ABE000E213A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA0C7D461CA6511800AA2F60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EA0C7D4A1CA6511800AA2F60 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA0C7D4B1CA6511800AA2F60 /* Base */,
+				EA5DCBCA1D98ABE000E213A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5DCC1B1D98ACA100E213A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5DCC1C1D98ACA100E213A5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA0C7D641CA6511800AA2F60 /* Debug */ = {
+		EA5DCBE31D98ABE000E213A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,18 +382,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		EA0C7D651CA6511800AA2F60 /* Release */ = {
+		EA5DCBE41D98ABE000E213A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -424,14 +419,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EA0C7D671CA6511800AA2F60 /* Debug */ = {
+		EA5DCBE61D98ABE000E213A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		EA0C7D681CA6511800AA2F60 /* Release */ = {
+		EA5DCBE71D98ABE000E213A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,7 +448,7 @@
 			};
 			name = Release;
 		};
-		EA0C7D6A1CA6511800AA2F60 /* Debug */ = {
+		EA5DCBE91D98ABE000E213A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		EA0C7D6B1CA6511800AA2F60 /* Release */ = {
+		EA5DCBEA1D98ABE000E213A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,7 +472,7 @@
 			};
 			name = Release;
 		};
-		EA0C7D6D1CA6511800AA2F60 /* Debug */ = {
+		EA5DCBEC1D98ABE000E213A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = ZLStatusBarHUDExampleUITests/Info.plist;
@@ -485,10 +480,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TsinMac.ZLStatusBarHUDExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ZLStatusBarHUDExample;
+				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		EA0C7D6E1CA6511800AA2F60 /* Release */ = {
+		EA5DCBED1D98ABE000E213A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = ZLStatusBarHUDExampleUITests/Info.plist;
@@ -496,46 +492,47 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TsinMac.ZLStatusBarHUDExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ZLStatusBarHUDExample;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA0C7D341CA6511800AA2F60 /* Build configuration list for PBXProject "ZLStatusBarHUDExample" */ = {
+		EA5DCBB31D98ABE000E213A5 /* Build configuration list for PBXProject "ZLStatusBarHUDExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0C7D641CA6511800AA2F60 /* Debug */,
-				EA0C7D651CA6511800AA2F60 /* Release */,
+				EA5DCBE31D98ABE000E213A5 /* Debug */,
+				EA5DCBE41D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA0C7D661CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExample" */ = {
+		EA5DCBE51D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0C7D671CA6511800AA2F60 /* Debug */,
-				EA0C7D681CA6511800AA2F60 /* Release */,
+				EA5DCBE61D98ABE000E213A5 /* Debug */,
+				EA5DCBE71D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EA0C7D691CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleTests" */ = {
+		EA5DCBE81D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0C7D6A1CA6511800AA2F60 /* Debug */,
-				EA0C7D6B1CA6511800AA2F60 /* Release */,
+				EA5DCBE91D98ABE000E213A5 /* Debug */,
+				EA5DCBEA1D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EA0C7D6C1CA6511800AA2F60 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleUITests" */ = {
+		EA5DCBEB1D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0C7D6D1CA6511800AA2F60 /* Debug */,
-				EA0C7D6E1CA6511800AA2F60 /* Release */,
+				EA5DCBEC1D98ABE000E213A5 /* Debug */,
+				EA5DCBED1D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA0C7D311CA6511800AA2F60 /* Project object */;
+	rootObject = EA5DCBB01D98ABE000E213A5 /* Project object */;
 }

@@ -2,8 +2,8 @@
 //  ViewController.m
 //  ZLStatusBarHUDExample
 //
-//  Created by MacTsin on 16/3/26.
-//  Copyright © 2016年 MacTsin. All rights reserved.
+//  Created by hezhonglin on 16/9/26.
+//  Copyright © 2016年 111. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -35,7 +35,4 @@
 - (IBAction)showSuccess:(id)sender {
     [ZLStatusBarHUD showSuccessWithMessage:@"加载成功"];
 }
-
-
-
 @end
