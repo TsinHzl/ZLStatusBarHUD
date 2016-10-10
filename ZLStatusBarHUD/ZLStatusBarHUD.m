@@ -31,6 +31,7 @@ static CGFloat ZLTimeInterval = 0.2;
     window_.frame = originalF;
     window_.windowLevel = UIWindowLevelAlert;
     window_.hidden = NO;
+    window_.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.75];
     
     [UIView animateWithDuration:ZLTimeInterval animations:^{
         window_.frame = newFrame;
