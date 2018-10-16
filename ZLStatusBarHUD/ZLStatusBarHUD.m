@@ -7,27 +7,30 @@
 //
 
 #import "ZLStatusBarHUD.h"
+#import "UIView+ZLExtension.h"
 
 #define ZLScreenBounds [UIScreen mainScreen].bounds
+#define ZLScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ZLFont [UIFont systemFontOfSize:14]
 
 @implementation ZLStatusBarHUD
 
-static UIWindow *window_;
-static NSTimer *timer_;
-static CGFloat ZLWindowsH = 35.0;
+static UIWindow *window_ = nil;
+static NSTimer *timer_ = nil;
 
-static CGFloat ZLTimerInterval = 1.5;
-static CGFloat ZLTimeInterval = 0.2;
+static CGFloat const ZLWindowsH = 35.0;
+static CGFloat const ZLTimerInterval = 1.5;
+static CGFloat const ZLTimeInterval = 0.2;
 
 + (void)showWindow
 {
     if (timer_) [timer_ invalidate];
     window_.hidden = YES;
     
+    CGFloat windowH = ZLScreenHeight >= 812.f ? ZLWindowsH + 24.f : ZLWindowsH;
     window_ = [[UIWindow alloc] init];
-    CGRect originalF = CGRectMake(0, -ZLWindowsH, ZLScreenBounds.size.width, ZLWindowsH);
-    CGRect newFrame = CGRectMake(0, 0, ZLScreenBounds.size.width, ZLWindowsH);
+    CGRect originalF = CGRectMake(0, -ZLWindowsH, ZLScreenBounds.size.width, windowH);
+    CGRect newFrame = CGRectMake(0, 0, ZLScreenBounds.size.width, windowH);
     window_.frame = originalF;
     window_.windowLevel = UIWindowLevelAlert;
     window_.hidden = NO;
@@ -51,7 +54,7 @@ static CGFloat ZLTimeInterval = 0.2;
 {
     [self showWindow];
     UIButton *msgButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    msgButton.frame = window_.bounds;
+    msgButton.frame = CGRectMake(0, window_.zl_height - ZLWindowsH, window_.zl_width, ZLWindowsH);
     [window_ addSubview:msgButton];
     
     [msgButton setTitle:message forState:UIControlStateNormal];
@@ -79,7 +82,7 @@ static CGFloat ZLTimeInterval = 0.2;
     [timer_ invalidate];
     
     UILabel *messageLabel = [[UILabel alloc] init];
-    messageLabel.frame = window_.bounds;
+    messageLabel.frame = CGRectMake(0, window_.zl_height - ZLWindowsH, window_.zl_width, ZLWindowsH);
     [window_ addSubview:messageLabel];
     messageLabel.font = ZLFont;
     messageLabel.textColor = [UIColor whiteColor];
@@ -91,7 +94,7 @@ static CGFloat ZLTimeInterval = 0.2;
     [window_ addSubview:indicator];
     CGFloat textW = [messageLabel.text sizeWithAttributes:@{NSFontAttributeName : ZLFont}].width;
     CGFloat centerX = (window_.bounds.size.width - textW)*0.5 - 20;
-    CGFloat centerY = window_.center.y;
+    CGFloat centerY = messageLabel.zl_centerY;
     indicator.frame = CGRectMake(0, 0, 50, 50);
     indicator.center = CGPointMake(centerX, centerY);
     [indicator startAnimating];

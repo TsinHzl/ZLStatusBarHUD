@@ -17,6 +17,7 @@
 		EA5DCC191D98AC4A00E213A5 /* ZLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCC161D98AC4A00E213A5 /* ZLStatusBarHUD.bundle */; };
 		EA5DCC1A1D98AC4A00E213A5 /* ZLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */; };
 		EA5DCC1D1D98ACA100E213A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5DCC1B1D98ACA100E213A5 /* Main.storyboard */; };
+		FA2B8A5E2175C3F50065907E /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2B8A5D2175C3F50065907E /* UIView+ZLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EA5DCC171D98AC4A00E213A5 /* ZLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLStatusBarHUD.h; sourceTree = "<group>"; };
 		EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStatusBarHUD.m; sourceTree = "<group>"; };
 		EA5DCC1C1D98ACA100E213A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2B8A5C2175C3F50065907E /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
+		FA2B8A5D2175C3F50065907E /* UIView+ZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 				EA5DCC161D98AC4A00E213A5 /* ZLStatusBarHUD.bundle */,
 				EA5DCC171D98AC4A00E213A5 /* ZLStatusBarHUD.h */,
 				EA5DCC181D98AC4A00E213A5 /* ZLStatusBarHUD.m */,
+				FA2B8A5C2175C3F50065907E /* UIView+ZLExtension.h */,
+				FA2B8A5D2175C3F50065907E /* UIView+ZLExtension.m */,
 			);
 			name = ZLStatusBarHUD;
 			path = ../../ZLStatusBarHUD;
@@ -224,6 +229,7 @@
 				TargetAttributes = {
 					EA5DCBB71D98ABE000E213A5 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GYDMVUU7KH;
 					};
 					EA5DCBD01D98ABE000E213A5 = {
 						CreatedOnToolsVersion = 7.1;
@@ -291,6 +297,7 @@
 				EA5DCBC31D98ABE000E213A5 /* ViewController.m in Sources */,
 				EA5DCBC01D98ABE000E213A5 /* AppDelegate.m in Sources */,
 				EA5DCBBD1D98ABE000E213A5 /* main.m in Sources */,
+				FA2B8A5E2175C3F50065907E /* UIView+ZLExtension.m in Sources */,
 				EA5DCC1A1D98AC4A00E213A5 /* ZLStatusBarHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GYDMVUU7KH;
 				INFOPLIST_FILE = ZLStatusBarHUDExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TsinMac.ZLStatusBarHUDExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GYDMVUU7KH;
 				INFOPLIST_FILE = ZLStatusBarHUDExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TsinMac.ZLStatusBarHUDExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +526,7 @@
 				EA5DCBE71D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5DCBE81D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				EA5DCBEA1D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5DCBEB1D98ABE000E213A5 /* Build configuration list for PBXNativeTarget "ZLStatusBarHUDExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +544,7 @@
 				EA5DCBED1D98ABE000E213A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
